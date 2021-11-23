@@ -72,7 +72,7 @@ const PORT = process.env.PORT ? process.env.PORT : 8082;
 const server = app.listen(PORT, () => {
     const host = server.address().address;
     const port = server.address().port;
-    console.log(`Events app listening at http://${host}:${port}`);
+    console.log(`Events apps listening at http://${host}:${port}`);
 });
 
 module.exports = app;
